@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+checkpoints/
+data/
+runs/
+reports/
+*.zip
+thesis/main.pdf
+thesis/*.aux
+thesis/*.log
+thesis/*.blg
+thesis/*.bbl
