@@ -1053,11 +1053,6 @@ runs/gcnet_s/evaluation/
 
 `reference_policy_comparison.csv` is produced by the Lisbon summary script when assembling the comparison. It is not a direct output of `evaluate.py`.
 
-### Optional thesis and summary outputs
-
-`scripts/summarise.py` was written for the completed Lisbon experiment. It produces `RESULTS.md`, a comparison CSV, source checksums, a source archive, and, when the thesis template exists, a LaTeX results file and Overleaf archive.
-
-It expects additional Lisbon provenance files that the main pipeline does not create automatically, including archived generator sources, the annotation seal, execution notes, and the boundary-reference audit.
 
 **Do not treat `summarise.py` as a required final command for a fresh unrelated dataset.** Adapt its provenance list, text, and thesis template to the new experiment. Do not create empty provenance files or reuse Lisbon measurements to satisfy it. Training, evaluation, and export work without running this summary script.
 
